@@ -1,0 +1,427 @@
+.navb {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #292929;
+  height: 140px;
+  width: 1441px;
+
+}
+
+.navb2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 193px;
+  height: 60px;
+  left: 91px;
+  top: 40px;
+  border: 1px solid #FFFFFF;
+}
+
+.imglogo {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+#imgcont {
+  position: relative;
+  width: 1441px;
+  height: 550px;
+  background-image: url("../images/image1.png");
+  display: block;
+}
+
+#maintext {
+  position: absolute;
+  width: 490px;
+  height: 282px;
+  left: 77px;
+  top: 109px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.searchbar1 {
+  position: absolute;
+  top: 740px;
+  left: 77px;
+}
+
+h1 {
+  width: 100%;
+  height: 31px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #000000;
+}
+
+
+
+#sbar1 {
+  box-sizing: border-box;
+  width: 1290px;
+  height: 54px;
+  border: 1px solid #000000;
+}
+
+.movcont {
+  position: absolute;
+  top: 850px;
+  left: 77px;
+  width: 1300px;
+  height: 500px;
+}
+
+.gallerygrid {
+  width: 1363px;
+  height: 350px;
+  position: relative;
+  top: 37px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+
+
+}
+
+.grid1 {
+  width: 300px;
+  height: 300px;
+  background: #000000;
+  border-radius: 12px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 120px 0;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 31px;
+  margin-right: 9px;
+}
+
+.secondhd {
+  position: relative;
+  top: 28px;
+}
+
+#row2 {
+  position: absolute;
+  top: 390px;
+}
+
+#results{
+  position: relative;
+  top: 150px;
+  left:590px;
+  font-size: 24px;
+  display:none;
+}
+
+body {
+  font-family: 'DM Sans';
+  padding-bottom: 50px;
+}
+
+
+@media screen and (min-width:375px) and (max-width: 390px) {
+
+
+
+  .navb {
+    height: 67px;
+    width: 100%;
+
+  }
+
+  .navb2 {
+    position: absolute;
+    top: 20px;
+    left: 128px;
+    width: 108px;
+    height: 33.58px;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 87.68px;
+    height: 18.43px;
+    left: 11px;
+    top: 10px;
+  }
+
+  #imgcont {
+    position: absolute;
+    top: 67px;
+    width: 100%;
+    height: 257px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  #maintext {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    width: 273px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+  }
+
+  .searchbar1 {
+    position: absolute;
+    top: 350px;
+    left: 17px;
+  }
+
+  h1 {
+    width: 100%;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  #sbar1 {
+    box-sizing: border-box;
+    width: 340px;
+    height: 34px;
+    border: 1px solid #000000;
+  }
+
+  .movcont {
+    position: absolute;
+    top: 422px;
+    left: 17px;
+    width: 300px;
+    height: 300px;
+
+
+  }
+
+  .grid1 {
+    width: 250px;
+    height: 250px;
+    background: #000000;
+    border-radius: 12px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px 0;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 31px;
+
+  }
+
+  .gallerygrid {
+    width: 358px;
+    height: 300px;
+    position: relative;
+    top: 37px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+
+  }
+
+  .tagdis {
+    display: none;
+  }
+
+  #row3 {
+    position: relative;
+    top: 7px;
+  }
+
+  #row2 {
+    position: absolute;
+    top: 340px;
+  }
+
+  body {
+    font-family: 'DM Sans';
+    padding-bottom: 10px;
+
+  }
+  #results{
+    position: relative;
+    top: 100px;
+    left:115px;
+    font-size: 16px;
+    display:none;
+  }
+
+}
+
+@media screen and (min-width:834px) and (max-width: 834px) {
+
+
+
+  .navb {
+    height: 140px;
+    width: 100%;
+
+  }
+
+  .navb2 {
+    position: absolute;
+    width: 193px;
+    height: 60px;
+    left: 321px;
+    top: 40px;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 156.7px;
+    height: 32.94px;
+    left: 20px;
+    top: 14px;
+  }
+
+  #imgcont {
+    position: absolute;
+    top: 138px;
+    width: 100%;
+    height: 550px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  #maintext {
+    position: absolute;
+    width: 490px;
+    height: 282px;
+    left: 172px;
+    top: 147px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+  }
+
+  .searchbar1 {
+    position: absolute;
+    top: 720px;
+    left: 77px;
+  }
+
+  h1 {
+    width: 100%;
+    height: 31px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+  }
+
+  #sbar1 {
+    box-sizing: border-box;
+    width: 680px;
+    height: 54px;
+    border: 1px solid #000000;
+  }
+
+  .movcont {
+    position: absolute;
+    top: 832px;
+    left: 77px;
+    width: 756px;
+    height: 500px;
+
+
+  }
+
+  .grid1 {
+    width: 300px;
+    height: 300px;
+    background: #000000;
+    border-radius: 12px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px 0;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 31px;
+
+  }
+
+  .gallerygrid {
+    width: 757px;
+    height: 330px;
+    position: relative;
+    top: 37px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+
+  }
+
+  .tagdis {
+    display: none;
+  }
+
+  #row3 {
+    position: relative;
+    top: 7px;
+  }
+
+  #row2 {
+    position: absolute;
+    top: 415px;
+  }
+
+  body {
+    font-family: 'DM Sans';
+    padding-bottom: 0px;
+
+  }
+  #results{
+    position: relative;
+    top: 100px;
+    left:275px;
+    font-size: 24px;
+    display:none;
+  }
+
+}
