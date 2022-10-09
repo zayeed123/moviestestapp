@@ -6,7 +6,7 @@ const getMovies = () => {
     const con = document.getElementById("movie-list-con");
     con.innerHTML= '';
 
-    fetch(`http://www.omdbapi.com/?apikey=f1bdf8cf&s=${searchTerm}`)
+    fetch(`https://www.omdbapi.com/?apikey=f1bdf8cf&s=${searchTerm}`)
     .then(data => {
         return data.json();
     })
